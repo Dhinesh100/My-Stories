@@ -1,0 +1,26 @@
+.bs-example{
+    margin: 20px;
+    font-family: Helvetica;
+}
+
+.author {
+	text-decoration: none;
+	color: #ff4500;
+}
+
+.author:hover {
+	text-decoration: underline;
+}
+
+.title {
+	font-size: 40px;
+}
+
+.calligraphy {
+	font-family: 'Archivo Black';
+}
+
+.heading {
+		font-weight: bold;
+		text-transform: uppercase;
+}
