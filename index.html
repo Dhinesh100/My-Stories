@@ -7,24 +7,21 @@
 	    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fitText.js/1.1/jquery.fittext.min.js"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<title>Stories-Home</title>
 	</head>
-	<style>
-    	
-	</style>
-
 	<body>
 		<div class="bs-example calligraphy">
     		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 	        	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
 	            	<span class="navbar-toggler-icon"></span>
 	        	</button>
-		    	<span class="navbar-brand title">STORIES BLOG</span>
-	        	<div class="navbar-nav ml-auto" id="navbarCollapse">
+		    	<span class="navbar-brand title heading">STORIES BLOG</span>
+	        	<div class="navbar-nav ml-auto items" id="navbarCollapse">
 	            	<div class="navbar-nav">
 	                	<ul class="nav navbar-nav">
 			                <li class="nav-item">
@@ -33,16 +30,16 @@
 			                <li class="nav-item dropdown">
 			                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Genres</a>
 			                    <div class="dropdown-menu">
-			                        <a href="#" class="dropdown-item">Comics</a>
-			                        <a href="#" class="dropdown-item">Fantasy</a>
-			                        <a href="#" class="dropdown-item">Romance</a>
-			                        <a href="#"class="dropdown-item">Science Fiction</a>
-			                        <a href="#" class="dropdown-item">Horror</a>
-			                        <a href="#" class="dropdown-item">Thriller</a>
-			                        <a href="#" class="dropdown-item">Mystery</a>
-			                        <a href="#" class="dropdown-item">Historical</a>
-			                        <a href="#" class="dropdown-item">Adventure</a>
-			                        <a href="#" class="dropdown-item">Art Works</a>
+			                        <a href="#" class="items dropdown-item">Comics</a>
+			                        <a href="#" class="items dropdown-item">Fantasy</a>
+			                        <a href="#" class="items dropdown-item">Romance</a>
+			                        <a href="#" class="items dropdown-item">Science Fiction</a>
+			                        <a href="#" class="items dropdown-item">Horror</a>
+			                        <a href="#" class="items dropdown-item">Thriller</a>
+			                        <a href="#" class="items dropdown-item">Mystery</a>
+			                        <a href="#" class="items dropdown-item">Historical</a>
+			                        <a href="#" class="items dropdown-item">Adventure</a>
+			                        <a href="#" class="items dropdown-item">Art Works</a>
 			                    </div>
 			                </li>			               
 			                <li class="nav-item">
@@ -54,8 +51,102 @@
 			            </ul>
 	            	</div>
 	        	</div>
-	    	</nav></br></br></br></br>
-	    	<h1 class="d-flex justify-content-center">THE PAGE IS YET TO BE DESIGNED</h1>
+	    	</nav>
+		</div></br></br></br>
+		<div>
+			<h3 class="d-flex justify-content-center">Featured Collection</h3>
+			<hr class="headline"></br>
 		</div>
+		<div class="d-flex flex-row">
+			<div class="d-flex flex-column">
+				<div class="ml-4 card card-size">
+				  <img class="card-img-top size" src="img/comic1.jpeg" alt="Card image"/>
+				  <div class="card-body">
+				    <h4 class="card-title">COMICS</h4>
+				    <p class="card-text">The Tales Of Supandi</p>
+				    <a href="#" class="but btn btn-primary">Read More</a>
+				  </div>
+				</div>
+				<div class="ml-4 mt-sm-4 card card-size">
+				  <img class="card-img-top size" src="img/fantasy1.jpeg" alt="Card image" />
+				  <div class="card-body">
+				    <h4 class="card-title">FANTASY</h4>
+				    <p class="card-text">The Lord Of The Ring</p>
+				    <a href="#" class="but btn btn-primary">Read More</a>
+				  </div>
+				</div>
+				<div class="ml-4 mt-sm-4 card card-size">
+				  <img class="card-img-top size" src="img/romance1.webp" alt="Card image" />
+				  <div class="card-body">
+				    <h4 class="card-title">ROMANCE</h4>
+				    <p class="card-text">Wuthering Heights</p>
+				    <a href="#" class="but btn btn-primary">Read More</a>
+				  </div>
+				</div>
+			</div>
+			<div class="d-flex flex-column">
+				<div class="ml-4 card card-size">
+				  <img class="card-img-top size" src="img/fiction1.jpeg" alt="Card image" />
+				  <div class="card-body">
+				    <h4 class="card-title">SCIENCE FICTION</h4>
+				    <p class="card-text">Ender's Game</p>
+				    <a href="#" class="but btn btn-primary">Read More</a>
+				  </div>
+				</div>
+				<div class="ml-4 mt-sm-4 card card-size">
+				  <img class="card-img-top size" src="img/horror1.jpeg" alt="Card image" />
+				  <div class="card-body">
+				    <h4 class="card-title">HORROR</h4>
+				    <p class="card-text">The Exorcist</p>
+				    <a href="#" class="but btn btn-primary">Read More</a>
+				  </div>
+				</div>
+				<div class="ml-4 mt-sm-4 card card-size">
+				  <img class="card-img-top size" src="img/thriller1.jpeg" alt="Card image" />
+				  <div class="card-body">
+				    <h4 class="card-title">THRILLER</h4>
+				    <p class="card-text">The Missing American</p>
+				    <a href="#" class="but btn btn-primary">Read More</a>
+				  </div>
+				</div>
+			</div>
+			<div class="d-flex flex-column">
+				<div class="ml-4 card card-size">
+				  <img class="card-img-top size" src="img/mystery1.png" alt="Card image" />
+				  <div class="card-body">
+				    <h4 class="card-title">MYSTERY</h4>
+				    <p class="card-text">The Girl With The Dragon Tattoo</p>
+				    <a href="#" class="but btn btn-primary">Read More</a>
+				  </div>
+				</div>
+				<div class="ml-4 mt-sm-4 card card-size">
+				  <img class="card-img-top size" src="img/historical1.jpeg" alt="Card image" />
+				  <div class="card-body">
+				    <h4 class="card-title">HISTORICAL</h4>
+				    <p class="card-text">Guns, Germs, and Steel</p>
+				    <a href="#" class="snackBtn but btn btn-primary">Read More</a>
+				  </div>
+				</div>
+				<div class="ml-4 mt-sm-4 card card-size">
+				  <img class="card-img-top size" src="img/comic1.jpeg" alt="Card image" />
+				  <div class="card-body">
+				    <h4 class="card-title">ART WORKS</h4>
+				    <p class="card-text">Canvas Paintings</p>
+				    <a href="#" class="snackBtn but btn btn-primary">Read More</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="snackText">Story is not available right now</div>
 	</body>
+	 <script>
+	 	document .querySelector(".snackBtn") .addEventListener("click", showSnackBar);
+	    function showSnackBar() {
+	       var x = document.querySelector(".snackText");
+	       x.className += " show";
+	       setTimeout(function() {
+	          x.className = x.className.replace("show", "");
+	       }, 3000);
+	    }
+	 </script>
 </html>
