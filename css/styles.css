@@ -133,6 +133,10 @@
      	font-size: 23px;
      }
 
+     body {
+          zoom: 100%;
+     }
+
      p {
      	font-size: 8px;
      }
@@ -171,6 +175,10 @@
           font-size: 3px;
      }
 
+     body {
+          zoom: 100%;
+     }
+
      .size {
           height: 100px;
      }
@@ -191,6 +199,10 @@
 
      .heading {
           font-size: 7px;
+     }
+
+     body {
+          zoom: 100%;
      }
 
      p {
