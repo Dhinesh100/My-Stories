@@ -126,7 +126,7 @@
      }
 
      h4 {
-     	font-size: 15px;
+     	font-size: 10px;
      }
 
      .heading {
@@ -147,5 +147,65 @@
 
      .items {
      	font-size: 15px;
+     }
+}
+
+@media screen and (max-width: 375px) {
+     .card-size {
+       width: 200px;
+     }
+
+     h4 {
+          font-size: 6px;
+     }
+
+     .heading {
+          font-size: 10px;
+     }
+
+     p {
+          font-size: 4px;
+     }
+
+     .but {
+          font-size: 3px;
+     }
+
+     .size {
+          height: 100px;
+     }
+
+     .items {
+          font-size: 8px;
+     }
+}
+
+@media screen and (max-width: 320px) {
+     .card-size {
+       width: 200px;
+     }
+
+     h4 {
+          font-size: 3px;
+     }
+
+     .heading {
+          font-size: 7px;
+     }
+
+     p {
+          font-size: 3px;
+     }
+
+     .but {
+          font-size: 3px;
+     }
+
+     .size {
+          height: 100px;
+     }
+
+     .items {
+          font-size: 8px;
      }
 }
